@@ -12,7 +12,7 @@ jobs:
       - uses: actions/checkout@v2
       - run: chmod u+x *
       - run: echo master > ./test-function/which_branch.txt
-      - run: zip -r /tmp/test-function.zip ./test-function/
+      - run: zip -rj /tmp/test-function.zip ./test-function/
       - uses: actions/setup-python@v2
         with:
           python-version: 3.8.2
