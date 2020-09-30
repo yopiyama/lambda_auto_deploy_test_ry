@@ -2,3 +2,5 @@
 
 Github Actions を使った AWS Lambda への自動デプロイを試すレポ
 
+Master と Develop ブランチへプッシュした際に自動的に AWS Lambda へデプロイされる
+
